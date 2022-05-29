@@ -1,8 +1,8 @@
 # CREQUEST
 
-[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
-[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
-[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
+[![GitHub commits](https://badgen.net/github/commits/Muthu-Palaniyappan-OL/crequest)](https://GitHub.com/Muthu-Palaniyappan-OL/crequest/commit/)
+[![Github all releases](https://img.shields.io/github/downloads/Muthu-Palaniyappan-OL/crequest/total.svg)](https://GitHub.com/Muthu-Palaniyappan-OL/crequest/releases/)
+[![GitHub stars](https://img.shields.io/github/stars/Muthu-Palaniyappan-OL/crequest.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Muthu-Palaniyappan-OL/crequest/stargazers/)
 ![Linux OS](https://img.shields.io/static/v1?style=plastic&message=linux&label=os)
 
 
