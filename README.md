@@ -1,4 +1,6 @@
-# CREQUEST
+<div align="center">
+ <img src="logo.png">
+</div>
 
 [![GitHub commits](https://badgen.net/github/commits/Muthu-Palaniyappan-OL/crequest)](https://GitHub.com/Muthu-Palaniyappan-OL/crequest/commit/)
 [![Github all releases](https://img.shields.io/github/downloads/Muthu-Palaniyappan-OL/crequest/total.svg)](https://GitHub.com/Muthu-Palaniyappan-OL/crequest/releases/)
@@ -6,13 +8,80 @@
 ![Linux OS](https://img.shields.io/static/v1?style=plastic&message=linux&label=os)
 
 
-Crequest is application based on c++ which could help you to limit the amount of TCP request your linux server can receive. It works like daemon process only. It doesn't depend of any other web framework.
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
 
-# Contributing To Code
 
-Feel free to contribute to the project. 
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-# Use Case
+This project is based on C++ which focus on limiting the number of HTTP requests sent to linux server in a window time. Bad players could send enormous amount of requests to a linux server to stop the system from servering its normal clients. To prevent this kind of attack (DoS) from happening a this project is created to hel you host you website in linux servers. This project is framework independant (Depends only on linux) so you can attach this to any of your stack easily.   
 
-Common use cases of this application is to limit the huge number of requests from client of 1 ip in short window time so that you can save gaurd you server from receiving huge amount of requests in short amount of time. This safe gaurd you from DoS attack.
+### Built With
+
+* [C++](https://isocpp.org/)
+
+
+## Getting Started
+
+Project Under Construction 🚧
+
+### Prerequisites
+
+Project Under Construction 🚧
+
+### Installation
+
+Project Under Construction 🚧
+
+## Usage
+
+Project Under Construction 🚧
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## License
+
+Distributed under the GPL2 License. See `LICENSE.txt` for more information.
+
+
+## Contact
+
+Muthu Palaniyappan OL - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - muthu892542@gmail.com
+
+Project Link: [https://github.com/Muthu-Palaniyappan-OL/crequest](https://github.com/Muthu-Palaniyappan-OL/crequest)
