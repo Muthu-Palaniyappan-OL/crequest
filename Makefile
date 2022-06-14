@@ -1,12 +1,12 @@
-GXX=clang++
+GXX=g++
 
 all: crequest
 
-crequest: main.cpp regex_matching.o
-	$(GXX) $^ -o $@
+crequest: util.o main.cpp
+	$(GXX) -g -pthread $^ -o $@
 
-regex_matching.o: include/regex_matching.cpp
-	$(GXX) -c $^ -o $@
+util.o: include/util.cpp
+	$(GXX) -g -c $^ -o $@
 
 clean:
 	rm *.o crequest

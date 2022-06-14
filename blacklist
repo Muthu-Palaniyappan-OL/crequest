@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [[ $1 =~ "add" ]]
+then
+    iptables-legacy -A INPUT -s $2 -j DROP
+    exit 0
+fi
+
+if [[ $1 =~ "remove" ]]
+then
+    iptables-legacy -D INPUT -s $2 -j DROP
+    exit 0
+fi
+
+if [[ $1 =~ "list" ]]
+then
+    iptables-legacy -L
+    exit 0
+fi
+
+echo -e "Usage:\n\tblacklist add <ip-address>\n\tblacklist remove <ip-address>\n\tblacklist list"
+exit 1
