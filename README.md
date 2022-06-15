@@ -40,6 +40,12 @@
 
 This project is based on C++ which focus on limiting the number of HTTP requests sent to linux server in a window time. Bad players could send enormous amount of requests to a linux server to stop the system from servering its normal clients. To prevent this kind of attack (DoS) from happening a this project is created to hel you host you website in linux servers. This project is framework independant (Depends only on linux) so you can attach this to any of your stack easily.   
 
+<div align="center">
+ <img src="sample.png">
+</div>
+
+If you take a look at this image after a paticular request limit inside the window time the application blocks the client's access to the linux server.
+
 ### Built With
 
 * [C++](https://isocpp.org/)
@@ -47,19 +53,33 @@ This project is based on C++ which focus on limiting the number of HTTP requests
 
 ## Getting Started
 
-Project Under Construction 🚧
+./crequest port-number window-time request-limit
+
+Building The Project From Scratch
+```sh
+chmod +x blacklist
+make
+./crequest 8080 10 5
+```
 
 ### Prerequisites
 
-Project Under Construction 🚧
+* make
+* g++ (10.2.1-6 >= )
+* linux system (Which supports iptables-legacy)
 
 ### Installation
 
-Project Under Construction 🚧
+```sh
+chmod +x blacklist
+make
+./crequest 8080 10 5
+mv ./crequest ~/.local/bin
+```
 
 ## Usage
 
-Project Under Construction 🚧
+./crequest port-number window-time request-limit
 
 ## Contributing
 
@@ -82,6 +102,10 @@ Distributed under the GPL2 License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Muthu Palaniyappan OL - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - muthu892542@gmail.com
+Muthu Palaniyappan OL - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - [mail me](mailto:muthu892542@gmail.com)
+
+Edumba Vannia Raja T - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - [mail me](mailto:muthu892542@gmail.com)
+
+Srinikethan S - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - [mail me](mailto:muthu892542@gmail.com)
 
 Project Link: [https://github.com/Muthu-Palaniyappan-OL/crequest](https://github.com/Muthu-Palaniyappan-OL/crequest)

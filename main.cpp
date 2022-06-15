@@ -10,7 +10,7 @@ using namespace std;
 #define MAX_BUFFER_SIZE 500
 
 list<string> blocked_ips;
-extendable_hashing<int> ip_map;
+extendable_hashing<string, int> ip_map;
 pthread_t t1;
 
 void remove_blocked_ips() {
@@ -68,10 +68,10 @@ int main(int argc, char* argv[]) {
         string path = m[1];
         regex_search(s, m, regex_ip);
         string ip = m[1];
-        ip_map.put(ip, ip_map.get(ip) + 1);
-        cout << "Times: " << ip_map.get(ip) << " " << ip << " from " << path
+        ip_map.put(ip, ip_map[ip] + 1);
+        cout << "Times: " << ip_map[ip] << " " << ip << " from " << path
              << endl;
-        if (ip_map.get(ip) == stoi(argv[3])) {
+        if (ip_map[ip] == stoi(argv[3])) {
           cout << "Blocking " << ip << endl;
           string s = "iptables-legacy -A INPUT -s " + ip + " -j DROP";
           blocked_ips.push_back(ip);
