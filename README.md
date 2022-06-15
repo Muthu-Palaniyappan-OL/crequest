@@ -104,10 +104,10 @@ Distributed under the GPL2 License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Muthu Palaniyappan OL - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - [mail me](mailto:muthu892542@gmail.com)
+* Muthu Palaniyappan OL - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - [mail me](mailto:muthu892542@gmail.com)
 
-Edumba Vannia Raja T - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - [mail me](mailto:muthu892542@gmail.com)
+* Edumba Vannia Raja T
 
-Srinikethan S - [@iampalaniyappan](https://twitter.com/iampalaniyappan) - [mail me](mailto:muthu892542@gmail.com)
+* Srinikethan S
 
 Project Link: [https://github.com/Muthu-Palaniyappan-OL/crequest](https://github.com/Muthu-Palaniyappan-OL/crequest)
