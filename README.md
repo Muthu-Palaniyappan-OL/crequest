@@ -79,7 +79,9 @@ mv ./crequest ~/.local/bin
 
 ## Usage
 
+```sh
 ./crequest port-number window-time request-limit
+```
 
 ## Contributing
 
